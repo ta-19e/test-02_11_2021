@@ -3,7 +3,7 @@
         "browser": true,
         "commonjs": true,
         "es2021": true,
-        "jest/globals": true
+        "jest": true
     },
     "extends": [
         "airbnb-base"
@@ -12,11 +12,6 @@
         "ecmaVersion": 12
     },
     "rules": {
-        "quotes": ["error", "double"],
-        "jest/no-disabled-tests": "warn",
-        "jest/no-identical-title": "error",
-        "jest/no-focused-tests": "error",
-        "jest/valid-expect": "error",
-        "jest/prefer-to-have-length": "warn"
+        "quotes": ["error", "double"]
       }
 }
