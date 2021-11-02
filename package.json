@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/Leibenau92/test-02_11_2021/issues"
   },
-  "homepage": "https://github.com/Leibenau92/test-02_11_2021#readme"
+  "homepage": "https://github.com/Leibenau92/test-02_11_2021#readme",
+  "devDependencies": {
+    "eslint": "^8.1.0"
+  }
 }
