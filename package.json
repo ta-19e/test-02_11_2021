@@ -4,7 +4,8 @@
   "description": "- install node packages from [package.json](./package.json)\r  - try out example script using `node example.js`",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint.js"
   },
   "keywords": [],
   "author": "",
