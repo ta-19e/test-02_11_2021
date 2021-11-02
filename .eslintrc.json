@@ -1,0 +1,12 @@
+{
+    "env": {
+    },
+    "extends": [
+        "airbnb-base"
+    ],
+    "parserOptions": {
+    },
+    "rules": {
+        "quotes": ["error", "double"]
+    }
+}
