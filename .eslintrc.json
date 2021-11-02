@@ -6,8 +6,8 @@
     },
     "extends": "eslint:recommended",
     "parserOptions": {
-        "ecmaVersion": 13
     },
     "rules": {
+        "quotes": ["error", "double"]
     }
 }
