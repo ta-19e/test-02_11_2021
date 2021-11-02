@@ -1,6 +1,6 @@
 # getting started
 
- - install node packages from [package.json](./package.json)
+ - install node packages from [package.json](./package.json).
  - try out example script using `node example.js`
 
 
