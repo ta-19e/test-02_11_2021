@@ -1,7 +1,10 @@
-var capitalize = require('capitalize');
+const capitalize = require("capitalize");
 
 function sayHello(name) {
-    return "Hello " + capitalize.words(name) + "!";
+  if (!name) {
+    throw new Error("No name is given");
+  }
+  return `Hello ${capitalize.words(name)}!`;
 }
 
-module.exports = sayHello
+module.exports = sayHello;
