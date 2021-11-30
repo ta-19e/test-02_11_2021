@@ -1,0 +1,47 @@
+{
+  "name": "learn-nightwatch",
+  "version": "1.0.24",
+  "description": "Learn how to use nightwatch for front-end testing. step-by-step tutorial",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4.4.6"
+  },
+  "scripts": {
+    "test": "nightwatch --env local",
+    "lint": "eslint 'test/**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwyl/learn-nightwatch.git"
+  },
+  "author": "DWYL & Friends",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/dwyl/learn-nightwatch/issues"
+  },
+  "homepage": "https://github.com/dwyl/learn-nightwatch#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "chromedriver": "^96.0.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "mime-types": "^2.1.13",
+    "nightwatch": "^1.7.12",
+    "nodemon": "^2.0.0",
+    "selenium-server": "^3.141.59"
+  },
+  "keywords": [
+    "nightwatch",
+    "testing",
+    "front-end",
+    "UI",
+    "browser",
+    "test",
+    "testing",
+    "step-by-step tutorial",
+    "how to",
+    "User Acceptance Testing",
+    "UAT"
+  ]
+}
